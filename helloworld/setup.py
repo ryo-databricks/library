@@ -1,7 +1,7 @@
-import setuptools
+from setuptools import setup, find_packages
 
-setuptools.setup(
+setup(
     name='helloworld',
     version='0.1',
-    packages=setuptools.find_packages(),
+    packages=find_packages()
 )
